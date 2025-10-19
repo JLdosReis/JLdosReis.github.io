@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #d7bef2;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #222;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-top: 25px;
+    color: #444;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+header h2 {
+    font-size: 1.2rem;
+    margin: 10px 0 35px;
+    color: #555;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #007acc;
+    font-weight: 600;
+}
+
+nav a:hover,
+nav a:focus {
+    color: #005a99;
+}
+
+main section {
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: 50px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    padding: 20px 30px;
+}
+
+main p, main li {
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+main a {
+    color: #007acc;
+    text-decoration: underline;
+}
+
+main a:hover,
+main a:focus {
+    color: #005a99;
+    text-decoration: none;
+}
+
+main img {
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.grid-figures {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.grid-figures figure img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+}
+
+article#futebol p {
+    margin-bottom: 25px;
+}
+
+#futebol .argentina-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#futebol figure.argentina {
+    width: 45%;
+}
+
+#futebol figure.argentina img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+#futebol figure.argentina figcaption {
+    text-align: center;
+    margin-top: 5px;
+}
+
+#futebol figure.saojose,
+#futebol figure.pousoalegre {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+#futebol figure.saojose img,
+#futebol figure.pousoalegre img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#futebol figure.saojose figcaption,
+#futebol figure.pousoalegre figcaption {
+    text-align: center;
+    margin-top: 5px;
+}
+
+#futebol figure.fm24 {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+#futebol figure.fm24 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#futebol figure.fm24 figcaption {
+    text-align: center;
+    margin-top: 5px;
+}
+
+#profissional p {
+    margin-bottom: 25px;
+}
+
+#profissional img[src*="conexaoDigital"] {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+#profissional .gm-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+#profissional .gm-container img {
+    width: 200px;
+    height: auto;
+    display: block;
+}
+
+
+abbr[title] {
+    border-bottom: 1px dotted #666;
+    cursor: default;
+}
+
+ul ul {
+    margin-top: 8px;
+    margin-left: 20px;
+    list-style-type: circle;
+}
+
+address {
+  font-style: normal;
+  line-height: 1.3;
+  text-align: left;
+  max-width: 600px;
+  margin: auto 0 auto 0;
+  color: #444;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #999;
+    margin-top: 40px;
+    padding-top: 15px;
+    border-top: 1px solid #ddd;
+}
